@@ -221,12 +221,13 @@ public class TelaTabelaItensController {
 
     @FXML
     private void excluir() {
-        
+
         if (mostrarMsgConfirmacao()) {
             daoContas.excluir(tabelaConteudo.getSelectionModel().getSelectedItem());
             refresh();
+            atualizar();
         }
-        
+
         tabelaConteudo.getSelectionModel().clearSelection();
         limparCampos();
 
@@ -318,6 +319,10 @@ public class TelaTabelaItensController {
 
         if (Util.isEmpty(txtNome.getText())) {
             msg.append("Necessário informar o nome da conta.").append(Util.getNewLine());
+        }
+        
+        if (Util.comparator(txtReal.getText(), txtPgt.getText())) {
+            msg.append("O valor da conta é maior que o valor pago.").append(Util.getNewLine());
         }
 
         if (Util.isEmpty(txtPgt.getText())) {

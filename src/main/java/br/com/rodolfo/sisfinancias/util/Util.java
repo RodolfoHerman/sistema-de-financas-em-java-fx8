@@ -51,6 +51,10 @@ public class Util {
         return false;
     }
     
+    public static final boolean comparator (String str1, String str2) {
+        return (str1.compareTo(str2) > 0 ? true : false);
+    }
+    
     public static final String getNewLine () {
         return (System.getProperty("line.separator"));
     }
