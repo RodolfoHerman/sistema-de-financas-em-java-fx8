@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.rodolfo.sisfinacias.dao;
+package br.com.rodolfo.sisfinancias.dao;
 
-import br.com.rodolfo.sisfinacias.model.Contas;
+import br.com.rodolfo.sisfinancias.model.Contas;
 import java.time.LocalDate;
 import java.util.HashMap;
 import java.util.Map;

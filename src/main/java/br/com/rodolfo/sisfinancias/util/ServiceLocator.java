@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.rodolfo.sisfinacias.util;
+package br.com.rodolfo.sisfinancias.util;
 
-import br.com.rodolfo.sisfinacias.dao.DAOContas;
-import br.com.rodolfo.sisfinacias.dao.DAOContasImpl;
+import br.com.rodolfo.sisfinancias.dao.DAOContas;
+import br.com.rodolfo.sisfinancias.dao.DAOContasImpl;
 
 /**
  *

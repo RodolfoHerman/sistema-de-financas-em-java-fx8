@@ -1,19 +1,15 @@
-package br.com.rodolfo.sisfinacias.main;
+package br.com.rodolfo.sisfinancias.main;
 
-import br.com.rodolfo.sisfinacias.config.Conexao;
 import java.io.IOException;
 import javafx.application.Application;
 import static javafx.application.Application.launch;
 import javafx.application.Platform;
 import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.DatePicker;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
-import javax.persistence.EntityManager;
 
 
 public class MainApp extends Application {

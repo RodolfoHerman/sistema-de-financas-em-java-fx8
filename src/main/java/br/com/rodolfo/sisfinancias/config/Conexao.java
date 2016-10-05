@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.rodolfo.sisfinacias.config;
+package br.com.rodolfo.sisfinancias.config;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;

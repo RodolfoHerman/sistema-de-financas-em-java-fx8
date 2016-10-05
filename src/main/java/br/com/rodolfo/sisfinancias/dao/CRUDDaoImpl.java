@@ -3,11 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.rodolfo.sisfinacias.dao;
+package br.com.rodolfo.sisfinancias.dao;
 
-import br.com.rodolfo.sisfinacias.config.Conexao;
-import br.com.rodolfo.sisfinacias.model.Contas;
-import java.util.HashMap;
+import br.com.rodolfo.sisfinancias.config.Conexao;
+import br.com.rodolfo.sisfinancias.model.Contas;
 import java.util.List;
 import java.util.Map;
 import javax.persistence.EntityManager;

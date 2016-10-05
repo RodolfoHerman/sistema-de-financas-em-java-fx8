@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.rodolfo.sisfinacias.controllers;
+package br.com.rodolfo.sisfinancias.controllers;
 
-import br.com.rodolfo.sisfinacias.util.Util;
+import br.com.rodolfo.sisfinancias.util.Util;
 import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;

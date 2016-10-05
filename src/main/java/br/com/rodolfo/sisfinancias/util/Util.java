@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.rodolfo.sisfinacias.util;
+package br.com.rodolfo.sisfinancias.util;
 
-import br.com.rodolfo.sisfinacias.model.Contas;
+import br.com.rodolfo.sisfinancias.model.Contas;
 import java.util.List;
 import javafx.scene.control.DatePicker;
 
