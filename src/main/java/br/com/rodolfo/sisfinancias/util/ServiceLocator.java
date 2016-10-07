@@ -5,7 +5,7 @@
  */
 package br.com.rodolfo.sisfinancias.util;
 
-import br.com.rodolfo.sisfinancias.dao.DAOContas;
+import br.com.rodolfo.sisfinancias.dao.CRUD;
 import br.com.rodolfo.sisfinancias.dao.DAOContasImpl;
 
 /**
@@ -14,7 +14,7 @@ import br.com.rodolfo.sisfinancias.dao.DAOContasImpl;
  */
 public class ServiceLocator {
     
-    public static DAOContas getDAOContas () {
+    public static CRUD getDAOContas () {
         return (new DAOContasImpl());
     }
     

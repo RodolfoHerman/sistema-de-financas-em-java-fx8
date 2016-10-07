@@ -5,7 +5,7 @@
  */
 package br.com.rodolfo.sisfinancias.controllers;
 
-import br.com.rodolfo.sisfinancias.dao.DAOContas;
+import br.com.rodolfo.sisfinancias.dao.CRUD;
 import br.com.rodolfo.sisfinancias.model.Contas;
 import br.com.rodolfo.sisfinancias.util.ServiceLocator;
 import br.com.rodolfo.sisfinancias.util.Util;
@@ -101,8 +101,7 @@ public class TelaTabelaItensController {
     private BooleanProperty edit = new SimpleBooleanProperty();
     private StringConverter<Number> converter = new NumberStringConverter();
     private Contas contaAtual;
-    private DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-    private DAOContas daoContas;
+    private CRUD daoContas;
     private String anoPesq;
     private String anoCalc;
     private LocalDate date = LocalDate.now();

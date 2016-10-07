@@ -5,19 +5,18 @@
  */
 package br.com.rodolfo.sisfinancias.dao;
 
-import br.com.rodolfo.sisfinancias.model.Contas;
 import java.util.List;
 
 /**
  *
  * @author h-e-r
  */
-public interface CRUDDao <E>{
+public interface CRUD <E> {
     
-    public abstract void salvar (E e);
+    public void salvar (E e);
     
-    public abstract void excluir (E e);
+    public void excluir (E e);
     
-    public abstract List<Contas> pesquisar (String ano);
+    public List<E> pesquisar (String e);
     
 }
