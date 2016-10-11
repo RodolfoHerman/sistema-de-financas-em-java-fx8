@@ -51,7 +51,7 @@
             <scope>provided</scope>
         </dependency-->
     </dependencies>
-    <!--build>
+    <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -135,7 +135,7 @@
                 </configuration>
             </plugin>
         </plugins>
-    </build-->
+    </build>
     <repositories>
         <repository>
             <id>unknown-jars-temp-repo</id>

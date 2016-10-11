@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--actions>
+<actions>
         <action>
             <actionName>run</actionName>
             <goals>
@@ -23,4 +23,4 @@
                 <jpda.listen>true</jpda.listen>
             </properties>
         </action>        
-    </actions-->
+    </actions>

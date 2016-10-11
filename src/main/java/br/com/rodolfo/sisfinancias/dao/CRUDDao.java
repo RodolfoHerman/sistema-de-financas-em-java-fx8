@@ -11,12 +11,12 @@ import java.util.List;
  *
  * @author h-e-r
  */
-public interface CRUD <E> {
+public interface CRUDDao <E>{
     
     public void salvar (E e);
     
     public void excluir (E e);
     
-    public List<E> pesquisar (String e);
+    public List<E> pesquisar (Object object);
     
 }
