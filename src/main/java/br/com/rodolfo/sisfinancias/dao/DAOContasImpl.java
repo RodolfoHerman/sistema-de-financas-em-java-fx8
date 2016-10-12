@@ -17,9 +17,9 @@ import java.util.Map;
  */
 public class DAOContasImpl extends CRUDDaoImpl<Contas, Integer> implements DAOContas {
 
-    private static final int DIA = 31;
-    private static final int JAN = 1;
-    private static final int DEZ = 12;
+    private final int DIA = 31;
+    private final int JAN = 1;
+    private final int DEZ = 12;
     
     
     @Override
