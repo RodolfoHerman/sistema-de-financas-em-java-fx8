@@ -1,6 +1,6 @@
 # Micro sistema de financias - Desktop
 
-O objetivo do sistema é manter uma base de dados de contas/boletos com seus respectivos valores e, quando houver, o valor total de multas/juros pagos, possibilitando ao usuário realizar os filtros de pesquisa.
+O objetivo do sistema é manter uma base de dados de contas/boletos com seus respectivos valores e, quando houver, o valor total de multas/juros pagos, ajudando em um possível entendimento dos gastos.
 
 Abaixo uma imagem do sistema
 
