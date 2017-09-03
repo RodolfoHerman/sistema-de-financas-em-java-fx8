@@ -11,3 +11,4 @@ Abaixo uma imagem do sistema
 - Java FX8
 - ORM Hibernate
 - Apache MAVEN
+- SceneBuilder
