@@ -12,3 +12,4 @@ Abaixo uma imagem do sistema
 - ORM Hibernate
 - Apache MAVEN
 - SceneBuilder
+- MySQL
